@@ -112,12 +112,34 @@
     </table>
     <br>
     <form action="" method="get">
-        <label for="user">User</label>
-        <input type="text" name="User" id="user">
-        <input type="submit" value="Validate">
-        <label for="pass">Password</label>
-        <input type="password" name="pass" id="pass">
-        <input type="submit" value="Validate">
+        <fieldset>
+            <label for="user">User</label>
+            <input type="text" name="User" id="user">
+            <input type="submit" value="Validate">
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass">
+            <input type="submit" value="Validate">
+            <input type="checkbox" name="info" id="info">
+            <label for="info">Subscribe to newsletter.</label>
+        </fieldset>
+        <fieldset>
+            <legend>Personal data</legend>
+        </fieldset>
+        <fieldset>
+            <legend>Working data</legend>
+            <label for="">Time schedule</label>
+            <input type="radio" name="turn" id="a" checked>
+            <label for="a">Day</label>
+            <input type="radio" name="turn" id="b">
+            <label for="b">Night</label>
+            <input type="radio" name="turn" id="c" checked>
+            <label for="c">Saturday</label>
+            <input type="radio" name="turn" id="d">
+            <label for="d">Sunday</label>
+        </fieldset>
+
+
+
         <input type="reset" value="clear">
         <input type="button" value="hi">
     </form>
