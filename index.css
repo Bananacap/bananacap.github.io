@@ -6,13 +6,13 @@ body {
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     font-family: Garamond, serif;
     color: #000000;
     background-color: #ffffff;
 }
 h2 {
-    text-align: center;
+    text-align: left;
     font-family: Garamond, serif;
     color: #000000;
     background-color: #ffffff;
